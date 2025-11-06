@@ -1,0 +1,4 @@
+[
+  { "id": 1, "title": "My First Post", "content": "Hello world!" },
+  { "id": 2, "title": "Second Post", "content": "Angular 17 is awesome." }
+]
