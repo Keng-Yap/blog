@@ -1,0 +1,27 @@
+.example-container {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.example-sidenav-content {
+  height: 100%;
+}
+
+.example-sidenav {
+  width: 150px;
+  background-color: #c6cbcf !important;
+}
+
+.example-sidenav button{
+  width: 100%;
+  padding: 10px;
+  background-color: unset;
+  border: none;
+  cursor: pointer;
+}
+
+.example-sidenav button:hover{
+
+  background-color: rgb(138, 133, 131, 0.3) !important;
+}

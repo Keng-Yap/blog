@@ -1,6 +1,20 @@
-<nav style="margin-bottom: 1rem;">
-  <a routerLink="">Home</a> |
-  <a routerLink="post">Post</a>
-</nav>
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+    <button type="button" routerLink="" style="margin-top: 3rem;">Home</button><br><br>
+    <button type="button" routerLink="post">Post</button><br><br>
+    <button type="button" routerLink="snake-game">Snake Game</button>
+  </mat-drawer>
 
-<router-outlet></router-outlet>
+  <div class="example-sidenav-content">
+    <button type="button" mat-button (click)="toggleDrawer(drawer)">
+      <mat-icon style="font-size: 32px; height: 32px; width: 32px;">{{ isOpen ? 'keyboard_arrow_left' : 'keyboard_arrow_right' }}</mat-icon>
+    </button>
+    <div style="display: flex; text-align: center; justify-content: center; align-items: center;">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+</mat-drawer-container>
+
+
+

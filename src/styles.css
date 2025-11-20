@@ -1,2 +1,20 @@
-html, body { height: 100%; font-size: 100%; background-color: azure;}
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; font-weight: 400; }
+html,
+body {
+    height: 100%;
+    font-size: 100%;
+    background-color: azure;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-weight: 400;
+}
+
+.mat-mdc-button .mat-mdc-button-persistent-ripple::before {
+    background-color: rgb(138, 133, 131, 0.3) !important;
+}
+
+.mat-mdc-button {
+    background-color: #D6D9DC !important;
+}
