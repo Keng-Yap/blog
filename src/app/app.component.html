@@ -9,9 +9,10 @@
     <button type="button" mat-button (click)="toggleDrawer(drawer)">
       <mat-icon style="font-size: 32px; height: 32px; width: 32px;">{{ isOpen ? 'keyboard_arrow_left' : 'keyboard_arrow_right' }}</mat-icon>
     </button>
-    <div style="display: flex; text-align: center; justify-content: center; align-items: center;">
+    <!-- <div style="display: flex; text-align: center; justify-content: center; align-items: center;">
       <router-outlet></router-outlet>
-    </div>
+    </div> -->
+    <router-outlet></router-outlet>
   </div>
 
 </mat-drawer-container>

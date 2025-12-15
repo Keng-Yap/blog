@@ -3,3 +3,16 @@
     
 </form>
 
+<div class="timeline-container">
+  <h4>Latest from our changelog</h4>
+
+  <div class="timeline">
+    <div class="item" *ngFor="let i of items | slice:0:5">
+      <div class="dot"></div>
+      <p class="time">{{ i.time }}</p>
+      <p class="title">{{ i.title }}</p>
+    </div>
+  </div>
+
+  <a class="link">View changelog →</a>
+</div>

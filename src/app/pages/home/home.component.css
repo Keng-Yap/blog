@@ -1,0 +1,38 @@
+.timeline-container {
+  width: 320px;
+  background: #0f1117;
+  color: white;
+  padding: 20px;
+  border-radius: 16px;
+  margin-left: 5rem;
+}
+
+.timeline {
+  position: relative;
+  border-left: 2px solid #444;
+  margin-left: 10px;
+  padding-left: 20px;
+}
+
+.item {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.dot {
+  position: absolute;
+  left: -27px;
+  width: 10px;
+  height: 10px;
+  background: #bbb;
+  border-radius: 50%;
+}
+
+.time {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.title {
+  font-weight: 600;
+}
